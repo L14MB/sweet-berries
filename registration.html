@@ -17,8 +17,33 @@
             <a href="registration.html" class="header-button">Get Started</a>
             </div>
         </div>
+
          <div class="registration-container">
-          form
+            <form>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <input type="text" placeholder="First Name" required><br>
+                <input type="text" placeholder="Last Name" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Login Info</legend>
+                <input type="email" placeholder="Email" required><br>
+                <input type="password" minlength="6" placeholder="Password" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Courses</legend>
+                <select name="selected-course" id="selected-course" required>
+                    <option value="cooking essentials">Cooking Essentials</option>
+                    <option value="chef skills">Chef Skills</option>
+                    <option value="nutrition in cooking">Nutrition In Cooking</option>
+                    <option value="plant-based cooking">Plant-Based Cooking</option>
+                    <option value="teens kitchen">Teens Kitchen</option>
+                </select><br>
+                <input type="text" placeholder="Notes" optional>
+            </fieldset>
+            <button>Submit</button>
+            <button>Reset</button>
+            </form>
          </div>
          <div class="footer">
             <h1>Sweet Berries</h1>
