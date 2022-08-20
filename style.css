@@ -131,6 +131,31 @@ html, body {
     font-size: 28px;
     padding-left:48px;
   }
+
+  .registration-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 10px;
+  }
+
+  .registration-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .registration-form {
+    font-family: 'Roboto', sans-serif;
+    color: #83869A;
+  }
+
+  .registration-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+  }
   
   @media (max-width:768px){
     .grid-container {
