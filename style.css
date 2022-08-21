@@ -134,20 +134,26 @@ html, body {
 
   .registration-container {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(3, auto);
+    grid-template: 25% 50% 25% / auto;
     row-gap: 10px;
+    grid-column: 100%;
   }
 
   .registration-title {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: white;
+    background: linear-gradient(#FF4C4C, #A94E97);
+    border-radius: 12px;
+    padding: 8px;
+    margin-top: 4px;
   }
 
   .registration-form {
     font-family: 'Roboto', sans-serif;
     color: #83869A;
+    width: 100%;
   }
 
   .registration-buttons {
