@@ -133,10 +133,8 @@ html, body {
   }
 
   .registration-container {
-    display: grid;
-    grid-template: 25% 50% 25% / auto;
     row-gap: 10px;
-    grid-column: 100%;
+    grid-column: span 3;
   }
 
   .registration-title {
@@ -153,7 +151,6 @@ html, body {
   .registration-form {
     font-family: 'Roboto', sans-serif;
     color: #83869A;
-    width: 100%;
   }
 
   .registration-buttons {
