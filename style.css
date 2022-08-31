@@ -42,6 +42,10 @@ html, body {
     padding: 8px;
     margin-top: 4px;
   }
+
+  .burger {
+    display: none;
+  }
   
   .banner {
     grid-column: 1/-1;
@@ -159,6 +163,10 @@ html, body {
     justify-content: space-around;
     margin-bottom: 5px;
   }
+
+  #burger {
+    display: none;
+  }
   
   @media (max-width:768px){
     .grid-container {
@@ -234,6 +242,24 @@ html, body {
     .header img {
       width: 123px;
       height: 111px;
+    }
+
+    .nav-container {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+    }
+
+    #burger:checked + .nav-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      
+      top: 70px;
+      width: 100%;
     }
   
     .banner {
