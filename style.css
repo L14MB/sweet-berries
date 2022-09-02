@@ -244,7 +244,7 @@ html, body {
       height: 111px;
     }
 
-    .nav-container {
+    .nav {
       display: none;
     }
 
@@ -252,12 +252,11 @@ html, body {
       display: block;
     }
 
-    #burger:checked + .nav-container {
+    #burger:checked + .nav {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
       position: absolute;
-      
       top: 70px;
       width: 100%;
     }
