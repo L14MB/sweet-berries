@@ -111,7 +111,7 @@ html, body {
   }
   
   .recipe-card-3{
-    margin:10px auto;
+    margin:50px 10px;
     box-shadow:0 4px 4px grey;
     background: linear-gradient(#FF4C4C, #A94E97);
     text-align: center;
